@@ -60,7 +60,7 @@ $(document).ready(function(){
   }
   
    function checkGameOver() {
-    if (score < -2) {
+    if (score < -15) {
       gameOver = true;
       //clearInterval(gameInterval);
       $target.hide();
